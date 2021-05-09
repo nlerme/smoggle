@@ -1,6 +1,6 @@
 Presentation
 ------------
-Smoggle is a cross-platform Boggle game solver written in C++, requires [libxml](http://www.xmlsoft.org/) and is distributed under LGPL license. Its main feature is to solve multilingual and multidimensional grid games in a command line fashion. Currently, only english and french is supported but extension to other languages is straightforward. This software can either solves a grid game provided in XML format as input or generated according to the statistics of the desired language (see the file "data/alphabet.xml"). More precisely, a lexicographic tree is first constructed according to these statistics. Then, the solver computes the words list by browsing the grid and the tree in parallel. The words list and some statistics are then gathered and displayed in the terminal.
+Smoggle is a cross-platform Boggle game solver written in C++ and distributed under LGPL license. It requires the [libxml](http://www.xmlsoft.org/) libary and OpenMP. Its main feature is to solve multilingual and multidimensional grid games in a command line fashion. Currently, only english and french is supported but extension to other languages is straightforward. This software can either solves a grid game provided in XML format as input or generated according to the statistics of the desired language (see the file "data/alphabet.xml"). More precisely, a lexicographic tree is first constructed according to these statistics. Then, the solver computes the words list by browsing the grid and the tree in parallel. The words list and some statistics are then gathered and displayed in the terminal. Finally, the resolution is parallelized using OpenMP, achieves near-linear speedup and usually takes less than 10 ms on a modern PC.
 
 Compilation
 -----------
@@ -12,7 +12,9 @@ Using default values of parameters, a 4x4 grid game can be both generated and so
 
 `./main -s direct`
 
-The grid dimension, the grid size, the input language as well as other options can be easily changed. An option is for instance available for solving the inverse Boggle game (i.e. given a grid game, arrange letters in such a way to maximize score). Please type `--help` for more information. 
+The grid dimension, the grid size, the input language and the presence of periodic borders can for instance be easily tuned through command line options. An option is for instance available for solving the inverse Boggle game (i.e. given a grid game, arrange letters in such a way to maximize score). Please type `--help` for more information. A example of run is depicted below
+
+![Screenshot](http://smoggle.sourceforge.net/pics/screenshot.png)
 
 Documentation
 -------------
