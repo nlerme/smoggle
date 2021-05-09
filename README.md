@@ -12,7 +12,7 @@ Using default values of parameters, a 4x4 grid game can be both generated and so
 
 `./main -s direct`
 
-The grid dimension, the grid size, the input language as well as other options can be easily changed. Please type `--help` for more information.
+The grid dimension, the grid size, the input language as well as other options can be easily changed. An option is for instance available for solving the inverse Boggle game (i.e. given a grid game, arrange letters in such a way to maximize score). Please type `--help` for more information. 
 
 Documentation
 -------------
