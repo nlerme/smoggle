@@ -1,0 +1,131 @@
+obj/application.o: src/application.cpp include/tokenizer.h \
+  include/iboggle_factory.h include/utils.h include/types.h \
+  include/smart_ptr.h include/iboggle.h include/lexicographic_tree.h \
+  include/grid.h include/coords.h include/language_config.h \
+  include/tree.h include/node.h include/path.h \
+  include/iboggle_hill_climbing.h include/iboggle_simulated_annealing.h \
+  include/iboggle_genetic_algorithm.h include/application.h \
+  include/timer.h include/argstream.h include/file.h \
+  include/config_file_io_factory.h include/config_file_io.h \
+  include/config_file_io_xml.h /usr/include/libxml2/libxml/parser.h \
+  /usr/include/libxml2/libxml/xmlversion.h \
+  /usr/include/libxml2/libxml/xmlexports.h \
+  /usr/include/libxml2/libxml/tree.h \
+  /usr/include/libxml2/libxml/xmlstring.h \
+  /usr/include/libxml2/libxml/xmlregexp.h \
+  /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+  /usr/include/libxml2/libxml/valid.h \
+  /usr/include/libxml2/libxml/xmlerror.h \
+  /usr/include/libxml2/libxml/list.h \
+  /usr/include/libxml2/libxml/xmlautomata.h \
+  /usr/include/libxml2/libxml/entities.h \
+  /usr/include/libxml2/libxml/encoding.h \
+  /usr/include/libxml2/libxml/xmlIO.h \
+  /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+  /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+  /usr/include/libxml2/libxml/xmlmemory.h \
+  /usr/include/libxml2/libxml/threads.h include/grid_file_io_factory.h \
+  include/grid_file_io.h include/grid_file_io_xml.h
+obj/config_file_io.o: src/config_file_io.cpp include/config_file_io.h \
+  include/file.h include/types.h include/language_config.h
+obj/config_file_io_xml.o: src/config_file_io_xml.cpp \
+  include/language_config.h include/types.h include/utils.h \
+  include/types.h include/config_file_io_xml.h \
+  /usr/include/libxml2/libxml/parser.h \
+  /usr/include/libxml2/libxml/xmlversion.h \
+  /usr/include/libxml2/libxml/xmlexports.h \
+  /usr/include/libxml2/libxml/tree.h \
+  /usr/include/libxml2/libxml/xmlstring.h \
+  /usr/include/libxml2/libxml/xmlregexp.h \
+  /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+  /usr/include/libxml2/libxml/valid.h \
+  /usr/include/libxml2/libxml/xmlerror.h \
+  /usr/include/libxml2/libxml/list.h \
+  /usr/include/libxml2/libxml/xmlautomata.h \
+  /usr/include/libxml2/libxml/entities.h \
+  /usr/include/libxml2/libxml/encoding.h \
+  /usr/include/libxml2/libxml/xmlIO.h \
+  /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+  /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+  /usr/include/libxml2/libxml/xmlmemory.h \
+  /usr/include/libxml2/libxml/threads.h include/config_file_io.h \
+  include/file.h include/language_config.h
+obj/file.o: src/file.cpp include/file.h include/types.h
+obj/grid_file_io.o: src/grid_file_io.cpp include/grid_file_io.h \
+  include/grid.h include/types.h include/utils.h include/coords.h \
+  include/language_config.h
+obj/grid_file_io_xml.o: src/grid_file_io_xml.cpp include/utils.h \
+  include/types.h include/types.h include/coords.h include/utils.h \
+  include/tokenizer.h include/grid_file_io_xml.h \
+  /usr/include/libxml2/libxml/parser.h \
+  /usr/include/libxml2/libxml/xmlversion.h \
+  /usr/include/libxml2/libxml/xmlexports.h \
+  /usr/include/libxml2/libxml/tree.h \
+  /usr/include/libxml2/libxml/xmlstring.h \
+  /usr/include/libxml2/libxml/xmlregexp.h \
+  /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+  /usr/include/libxml2/libxml/valid.h \
+  /usr/include/libxml2/libxml/xmlerror.h \
+  /usr/include/libxml2/libxml/list.h \
+  /usr/include/libxml2/libxml/xmlautomata.h \
+  /usr/include/libxml2/libxml/entities.h \
+  /usr/include/libxml2/libxml/encoding.h \
+  /usr/include/libxml2/libxml/xmlIO.h \
+  /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+  /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+  /usr/include/libxml2/libxml/xmlmemory.h \
+  /usr/include/libxml2/libxml/threads.h include/grid_file_io.h \
+  include/grid.h include/coords.h include/language_config.h
+obj/iboggle.o: src/iboggle.cpp include/iboggle.h include/lexicographic_tree.h \
+  include/grid.h include/types.h include/utils.h include/coords.h \
+  include/language_config.h include/tree.h include/node.h include/path.h
+obj/iboggle_genetic_algorithm.o: src/iboggle_genetic_algorithm.cpp \
+  include/iboggle_genetic_algorithm.h include/coords.h include/utils.h \
+  include/types.h include/iboggle.h include/lexicographic_tree.h \
+  include/grid.h include/language_config.h include/tree.h include/node.h \
+  include/path.h
+obj/iboggle_hill_climbing.o: src/iboggle_hill_climbing.cpp \
+  include/iboggle_hill_climbing.h include/coords.h include/utils.h \
+  include/types.h include/iboggle.h include/lexicographic_tree.h \
+  include/grid.h include/language_config.h include/tree.h include/node.h \
+  include/path.h
+obj/iboggle_simulated_annealing.o: src/iboggle_simulated_annealing.cpp \
+  include/utils.h include/types.h include/iboggle_simulated_annealing.h \
+  include/coords.h include/utils.h include/iboggle.h \
+  include/lexicographic_tree.h include/grid.h include/language_config.h \
+  include/tree.h include/node.h include/path.h
+obj/language_config.o: src/language_config.cpp include/language_config.h \
+  include/types.h
+obj/lexicographic_tree.o: src/lexicographic_tree.cpp include/utils.h \
+  include/types.h include/lexicographic_tree.h include/grid.h \
+  include/utils.h include/coords.h include/language_config.h \
+  include/tree.h include/node.h include/path.h
+obj/main.o: src/main.cpp include/application.h include/types.h \
+  include/lexicographic_tree.h include/grid.h include/utils.h \
+  include/coords.h include/language_config.h include/tree.h \
+  include/node.h include/path.h include/timer.h include/argstream.h \
+  include/file.h include/config_file_io_factory.h include/smart_ptr.h \
+  include/config_file_io.h include/config_file_io_xml.h \
+  /usr/include/libxml2/libxml/parser.h \
+  /usr/include/libxml2/libxml/xmlversion.h \
+  /usr/include/libxml2/libxml/xmlexports.h \
+  /usr/include/libxml2/libxml/tree.h \
+  /usr/include/libxml2/libxml/xmlstring.h \
+  /usr/include/libxml2/libxml/xmlregexp.h \
+  /usr/include/libxml2/libxml/dict.h /usr/include/libxml2/libxml/hash.h \
+  /usr/include/libxml2/libxml/valid.h \
+  /usr/include/libxml2/libxml/xmlerror.h \
+  /usr/include/libxml2/libxml/list.h \
+  /usr/include/libxml2/libxml/xmlautomata.h \
+  /usr/include/libxml2/libxml/entities.h \
+  /usr/include/libxml2/libxml/encoding.h \
+  /usr/include/libxml2/libxml/xmlIO.h \
+  /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+  /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+  /usr/include/libxml2/libxml/xmlmemory.h \
+  /usr/include/libxml2/libxml/threads.h include/grid_file_io_factory.h \
+  include/grid_file_io.h include/grid_file_io_xml.h
+obj/path.o: src/path.cpp include/path.h include/types.h include/coords.h \
+  include/utils.h include/grid.h include/language_config.h
+obj/timer.o: src/timer.cpp include/timer.h
+obj/tokenizer.o: src/tokenizer.cpp include/tokenizer.h

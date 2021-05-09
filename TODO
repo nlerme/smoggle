@@ -1,0 +1,9 @@
++------+
+| TODO |
++------+
+
+This is a short list of things to do:
+
+* Build a C++ / Gtkmm interface for the game
+* Manage more properly exotic languages (japanese, chinese, greek, etc.)
+* Reduce the cost of multiple comparisons between points

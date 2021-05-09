@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <language value="french" dictionary="data/french_dict.txt">
+    <letter value="a" weight="8" />
+    <letter value="b" weight="1" />
+    <letter value="c" weight="3" />
+    <letter value="d" weight="4" />
+    <letter value="e" weight="15" />
+    <letter value="f" weight="1" />
+    <letter value="g" weight="1" />
+    <letter value="h" weight="1" />
+    <letter value="i" weight="8" />
+    <letter value="j" weight="1" />
+    <letter value="k" weight="1" />
+    <letter value="l" weight="5" />
+    <letter value="m" weight="3" />
+    <letter value="n" weight="7" />
+    <letter value="o" weight="5" />
+    <letter value="p" weight="3" />
+    <letter value="q" weight="1" />
+    <letter value="r" weight="7" />
+    <letter value="s" weight="8" />
+    <letter value="t" weight="7" />
+    <letter value="u" weight="6" />
+    <letter value="v" weight="2" />
+    <letter value="w" weight="1" />
+    <letter value="x" weight="1" />
+    <letter value="y" weight="1" />
+    <letter value="z" weight="1" />
+  </language>
+
+  <language value="british" dictionary="data/british_dict.txt">
+    <letter value="a" weight="8" />
+    <letter value="b" weight="1" />
+    <letter value="c" weight="3" />
+    <letter value="d" weight="4" />
+    <letter value="e" weight="13" />
+    <letter value="f" weight="2" />
+    <letter value="g" weight="2" />
+    <letter value="h" weight="6" />
+    <letter value="i" weight="7" />
+    <letter value="j" weight="1" />
+    <letter value="k" weight="1" />
+    <letter value="l" weight="4" />
+    <letter value="m" weight="2" />
+    <letter value="n" weight="7" />
+    <letter value="o" weight="7" />
+    <letter value="p" weight="2" />
+    <letter value="q" weight="2" />
+    <letter value="r" weight="6" />
+    <letter value="s" weight="6" />
+    <letter value="t" weight="9" />
+    <letter value="u" weight="3" />
+    <letter value="v" weight="1" />
+    <letter value="w" weight="2" />
+    <letter value="x" weight="1" />
+    <letter value="y" weight="2" />
+    <letter value="z" weight="1" />
+  </language>
+
+  <language value="latin" dictionary="data/latin_dict.txt">
+    <letter value="a" weight="7" />
+    <letter value="b" weight="2" />
+    <letter value="c" weight="4" />
+    <letter value="d" weight="3" />
+    <letter value="e" weight="10" />
+    <letter value="f" weight="1" />
+    <letter value="g" weight="1" />
+    <letter value="h" weight="1" />
+    <letter value="i" weight="9" />
+    <letter value="k" weight="1" />
+    <letter value="l" weight="3" />
+    <letter value="m" weight="5" />
+    <letter value="n" weight="5" />
+    <letter value="o" weight="5" />
+    <letter value="p" weight="3" />
+    <letter value="q" weight="2" />
+    <letter value="r" weight="5" />
+    <letter value="s" weight="6" />
+    <letter value="t" weight="7" />
+    <letter value="u" weight="9" />
+    <letter value="v" weight="1" />
+    <letter value="x" weight="1" />
+    <letter value="y" weight="1" />
+    <letter value="z" weight="1" />
+  </language>
+</config>
