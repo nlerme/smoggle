@@ -10,6 +10,6 @@ PROJECT_NAME = Smoggle
 VERSION      = 1.5.0
 TARGET       = main
 DESCRIPTION  = multidimensional and multilingual Boggle game solver
-AUTHORS      = Nicolas Lermé (nicolas.lerme@free.fr)
+AUTHORS      = Nicolas LermÃ©
 WEBSITE      = http://smoggle.sf.net
 LAST_RELEASE = `date`
