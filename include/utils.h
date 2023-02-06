@@ -41,7 +41,7 @@ template<typename Type> std::string ToString( const Type & value )
 template<typename Type> bool FromString( const std::string & str, Type & dest )
 {
 	std::istringstream iss(str);
-	return iss >> dest != 0;
+	return bool(iss >> dest) != 0;
 }
 
 //------------------------------------------- Math functions -------------------------------------------
@@ -107,7 +107,7 @@ inline int Random()
 
 inline int LastCommonPosition( const std::string & str1, const std::string & str2 )
 {
-	register uint k(0);
+	uint k(0);
 	std::string::size_type Length(Min(str1.size(), str2.size()));
 
 	while( k < Length && str1[k] == str2[k] )

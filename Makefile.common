@@ -1,15 +1,7 @@
-######################################################################################################
-#                                                                                                    #
-#                                             Makefile                                               #
-#                                                                                                    #
-######################################################################################################
-
-
-#------------------------------- Initialisation of variables -----------------------------------
+#--- Variables --------------------------------------------------------------------------------------------
 PROJECT_NAME = Smoggle
 VERSION      = 1.5.0
-TARGET       = main
-DESCRIPTION  = multidimensional and multilingual Boggle game solver
+DESCRIPTION  = Multidimensional and multilanguage Boggle solver
 AUTHORS      = Nicolas Lermé
-WEBSITE      = http://smoggle.sf.net
+LICENSE      = LGPL-v3
 LAST_RELEASE = `date`

@@ -1,13 +1,18 @@
 Presentation
 ------------
-Smoggle is a cross-platform Boggle game solver written in C++ and distributed under LGPL license. It requires the [libxml](http://www.xmlsoft.org/) libary and OpenMP. Its main feature is to solve multilingual and multidimensional grid games in a command line fashion. Currently, only english and french is supported but extension to other languages is straightforward. This software can either solves a grid game provided in XML format as input or generated according to the statistics of the desired language (see the file "data/alphabet.xml"). More precisely, a lexicographic tree is first constructed according to these statistics. Then, the solver computes the words list by browsing the grid and the tree in parallel. The words list and some statistics are then gathered and displayed in the terminal. Finally, the resolution is parallelized using OpenMP, achieves near-linear speedup and usually takes less than 10 ms on a modern PC.
+Smoggle is a cross-platform Boggle game solver written in C++ and distributed under LGPL license.  Its main feature is to solve multilanguage and multidimensional grid games in a command line fashion. Currently, only english and french is supported but extension to other languages is straightforward. This software can either solves a grid game provided in XML format as input or generated according to the statistics of the desired language (see the file "data/alphabet.xml"). More precisely, a lexicographic tree is first constructed according to these statistics. Then, the solver computes the words list by browsing the grid and the tree in parallel. The words list and some statistics are then gathered and displayed in the terminal. Finally, the resolution is parallelized using OpenMP, achieves near-linear speedup and usually takes less than 10 ms on a modern PC.
+
+Requirements
+------------
+* The [libxml](http://www.xmlsoft.org/) libary.
+* The [OpenMP](https://www.openmp.org/) library.
 
 Compilation
 -----------
 Once the archive decompresed, just type `make` in a terminal.
 
-Running
--------
+Execution
+---------
 Using default values of parameters, a 4x4 grid game can be both generated and solved with
 
 `./main -s direct`

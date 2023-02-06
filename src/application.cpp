@@ -90,7 +90,7 @@ void CApplication::Run( int argc, char **argv )
 	   >> parameter('M',  "max-word-length",      m_MaxWordLength,                        "maximum length of words (>= 3)", false)
 	   >> parameter('s',     "solving-mode",        m_SolvingMode, "solving mode (none, direct or inverse:heuristic_name)", false)
 	   >>    option('p', "periodic-borders",    m_PeriodicBorders,                                      "periodic borders")
-	   >> help();
+	   >> help('h', "help", "Display this help");
 	as.defaultErrorHandling();
 
 	//--- We check parameters ---------------------------

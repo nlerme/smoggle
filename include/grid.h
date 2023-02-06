@@ -249,8 +249,8 @@ class CGrid
 	{
 		if( m_Dim == 2 )
 		{
-			register int x, y;
-			register uint k;
+			int x, y;
+			uint k;
 
 			for( y=0; y<m_Sizes[1]; y++ )
 			{
@@ -276,8 +276,8 @@ class CGrid
 		}
 		else if( m_Dim == 3 )
 		{
-			register int x, y, z;
-			register uint k;
+			int x, y, z;
+			uint k;
 
 			for( z=0; z<m_Sizes[2]; z++ )
 			{
@@ -313,7 +313,7 @@ class CGrid
 		TLettersList letters(language_config.Letters());
 		TWeightsList weights(language_config.Weights());
 		TWeightsListCIt it_weights(weights.begin());
-		register uint cumul(0), k(1), letters_size(letters.size());
+		uint cumul(0), k(1), letters_size(letters.size());
 		TWeightsList cumul_weights(letters_size+1);
 
 
