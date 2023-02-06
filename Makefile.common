@@ -1,7 +1,7 @@
 #--- Variables --------------------------------------------------------------------------------------------
-PROJECT_NAME = Smoggle
-VERSION      = 1.5.0
-DESCRIPTION  = Multidimensional and multilanguage Boggle solver
-AUTHORS      = Nicolas Lermé
-LICENSE      = LGPL-v3
-LAST_RELEASE = `date`
+PROJECT_NAME         = Smoggle
+PROJECT_VERSION      = 1.5.0
+PROJECT_DESCRIPTION  = Multidimensional and multilanguage Boggle solver
+PROJECT_AUTHORS      = Nicolas Lermé
+PROJECT_LICENSE      = LGPL-v3
+PROJECT_LAST_RELEASE = `date`
